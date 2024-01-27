@@ -1,0 +1,54 @@
+.container {
+    width: 70%;
+    height: 300px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.button-container>button {
+    width: 100px;
+}
+
+.clear {
+    width: 200px;
+    background-color: yellow;
+    color: black;
+}
+
+.search-field {
+    text-align: center;
+}
+
+#result {
+    width: 390px;
+    margin: 0 auto;
+    border-color: black;
+    height: 30px;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+.btn:active{
+    opacity: 0.5;
+}
+.signs{
+    background-color: teal;
+    color: white;
+}
